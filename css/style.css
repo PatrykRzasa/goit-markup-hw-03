@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
   max-width: 1600px;
   margin: 0 auto;
@@ -38,7 +38,7 @@ body {
 }
 .menu {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 93px;
 }
 .navigation-menu {
@@ -242,7 +242,7 @@ header {
 }
 
 .main-logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -254,7 +254,7 @@ header {
   color: black;
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
