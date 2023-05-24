@@ -11,6 +11,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
+  max-width: 1600px;
+  margin: 0 auto;
 }
 :root {
   --hover-color: #2196f3;
@@ -21,7 +23,6 @@ body {
 
 .section {
   padding: 94px 0;
-  width: 1600px;
 }
 
 .container {
@@ -137,6 +138,10 @@ body {
   text-decoration: none;
   margin-bottom: 9px;
   display: block;
+  font-style: normal;
+}
+.contact-footer:first-of-type {
+  text-decoration: underline;
 }
 .contact-footer:hover {
   color: var(--hover-color);
@@ -226,6 +231,7 @@ address p {
   letter-spacing: 0.03em;
   color: var(--negative-text-color);
   margin-bottom: 9px;
+  font-style: normal;
 }
 address {
   margin-top: 20px;
@@ -300,7 +306,6 @@ header {
   background: #2f303a;
   display: flex;
   margin: 0;
-  width: 1600px;
   height: 252px;
   padding: 60px 0;
 }
